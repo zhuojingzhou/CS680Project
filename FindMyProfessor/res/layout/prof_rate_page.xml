@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0033cc" >
+
+    <!-- Image Header (Bentley Falcon) -->
+
+    <TableRow
+        android:gravity="center"
+        android:paddingTop="10px" >
+
+        <ImageView
+            android:id="@+id/imageHeaderRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- Professor Image (left) and Professor Name (right) -->
+
+    <TableRow android:layout_marginTop="10dip" >
+
+        <ImageView
+            android:id="@+id/imageProfessorRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left" />
+
+        <TextView
+            android:id="@+id/txtProfNameRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Prof. Name"
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </TextView>
+    </TableRow>
+
+    <!-- Professor Profile -->
+
+    <TableRow android:layout_marginTop="10dip" >
+
+        <TextView
+            android:id="@+id/txtProfProfileRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brief introduction of Prof......"
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </TextView>
+    </TableRow>
+
+    <!-- Overal Quality -->
+
+    <TableRow android:layout_marginTop="10dip" >
+
+        <TextView
+            android:id="@+id/txtOverallQualityRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="* Overall Quality"
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtOverallQualityRateEnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </EditText>
+    </TableRow>
+
+    <!-- Helpfulness -->
+
+    <TableRow android:layout_marginTop="10dip" >
+
+        <TextView
+            android:id="@+id/txtHelpfulnessRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="* Overall Quality"
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txthelpfulnessRateEnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </EditText>
+    </TableRow>
+
+    <!-- Clarity -->
+
+    <TableRow android:layout_marginTop="10dip" >
+
+        <TextView
+            android:id="@+id/txtClarityRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="* Overall Quality"
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtClarityRateEnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </EditText>
+    </TableRow>
+
+    <!-- Comments -->
+
+    <TableRow android:layout_marginTop="10dip" >
+
+        <TextView
+            android:id="@+id/txtCommentsRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMMENTS"
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </TextView>
+    </TableRow>
+
+    <!-- Comment 1 -->
+
+    <TableRow android:layout_marginTop="10dip" >
+
+        <EditText
+            android:id="@+id/txtComment1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMMENT 1..."
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </EditText>
+    </TableRow>
+
+    <!-- Comment 2 -->
+
+    <TableRow android:layout_marginTop="10dip" >
+
+        <EditText
+            android:id="@+id/txtComment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMMENT 2..."
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </EditText>
+    </TableRow>
+
+    <!-- Comment 3 -->
+
+    <TableRow android:layout_marginTop="10dip" >
+
+        <EditText
+            android:id="@+id/txtComment3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMMENT 3..."
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </EditText>
+    </TableRow>
+
+</TableLayout>
