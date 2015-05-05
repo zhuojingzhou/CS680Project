@@ -4,5 +4,7 @@
     <string name="app_name">FindMyProfessor</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_prof_info">ProfInfo</string>
+    <string name="title_activity_rating_form">RatingForm</string>
 
 </resources>

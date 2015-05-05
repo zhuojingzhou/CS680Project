@@ -43,22 +43,6 @@
         </TextView>
     </TableRow>
 
-    <!-- Professor Profile -->
-
-    <TableRow android:layout_marginTop="10dip" >
-
-        <TextView
-            android:id="@+id/txtProfProfileRate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Brief introduction of Prof......"
-            android:textColor="#FF00FF00"
-            android:textSize="18sp"
-            android:textStyle="italic"
-            android:typeface="serif" >
-        </TextView>
-    </TableRow>
-
     <!-- Overal Quality -->
 
     <TableRow android:layout_marginTop="10dip" >
@@ -68,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="* Overall Quality"
+            android:text="Assignments"
             android:textColor="#FF00FF00"
             android:textSize="18sp"
             android:textStyle="italic"
@@ -76,11 +60,12 @@
         </TextView>
 
         <EditText
-            android:id="@+id/txtOverallQualityRateEnt"
+            android:id="@+id/txtAssignments"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
+            android:hint="1 - 5"
             android:textColor="#FF00FF00"
             android:textSize="18sp"
             android:textStyle="italic"
@@ -97,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="* Overall Quality"
+            android:text="Knowledge"
             android:textColor="#FF00FF00"
             android:textSize="18sp"
             android:textStyle="italic"
@@ -105,10 +90,11 @@
         </TextView>
 
         <EditText
-            android:id="@+id/txthelpfulnessRateEnt"
+            android:id="@+id/txtKnowledge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:hint="1 - 5"
             android:gravity="center"
             android:textColor="#FF00FF00"
             android:textSize="18sp"
@@ -126,7 +112,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="* Overall Quality"
+            android:text="Accessible"
             android:textColor="#FF00FF00"
             android:textSize="18sp"
             android:textStyle="italic"
@@ -134,7 +120,35 @@
         </TextView>
 
         <EditText
-            android:id="@+id/txtClarityRateEnt"
+            android:id="@+id/txtAccessible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="1 - 5"
+            android:textColor="#FF00FF00"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </EditText>
+    </TableRow>
+    
+    <TableRow android:layout_marginTop="10dip" >
+
+        <TextView
+            android:id="@+id/txtUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Please enter your email: "
+            android:textColor="#FF00FF00"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtEmailInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -170,44 +184,25 @@
             android:id="@+id/txtComment1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="COMMENT 1..."
+            android:text=""
+            android:hint="Enter comments here..."
             android:textColor="#FF00FF00"
             android:textSize="18sp"
             android:textStyle="italic"
             android:typeface="serif" >
         </EditText>
     </TableRow>
-
-    <!-- Comment 2 -->
-
+    
     <TableRow android:layout_marginTop="10dip" >
 
-        <EditText
-            android:id="@+id/txtComment2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="COMMENT 2..."
-            android:textColor="#FF00FF00"
-            android:textSize="18sp"
-            android:textStyle="italic"
-            android:typeface="serif" >
-        </EditText>
-    </TableRow>
-
-    <!-- Comment 3 -->
-
-    <TableRow android:layout_marginTop="10dip" >
-
-        <EditText
-            android:id="@+id/txtComment3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="COMMENT 3..."
-            android:textColor="#FF00FF00"
-            android:textSize="18sp"
-            android:textStyle="italic"
-            android:typeface="serif" >
-        </EditText>
+        <Button
+            android:id="@+id/btnSubmit"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="5dp"
+            android:layout_height="30dp"
+            android:background="#57AEF1"
+            android:text="Submit"
+            android:textColor="#ffffff" />
     </TableRow>
 
 </TableLayout>

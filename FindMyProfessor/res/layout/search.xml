@@ -45,17 +45,33 @@
              
         android:layout_height="wrap_content" >
     </Spinner>
-    
+<LinearLayout
+        android:id="@+id/part3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"        
+        android:layout_marginTop="10dp"
+        android:background="#F9F6F4"
+        android:orientation="horizontal" >    
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:layout_gravity="center"
-        android:background="#339BE6"        
-        android:text="Go"
-        android:layout_marginTop="50dp"        
-        android:textColor="#000000"
-        android:textSize="15dp" />
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#57AEF1"
+        android:text="Info"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#CCCCCC"
+        android:padding="5dp"
+        android:text="Rate"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+</LinearLayout>   
 
 </LinearLayout>
 

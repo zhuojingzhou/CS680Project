@@ -51,12 +51,22 @@
             android:id="@+id/txtProfProfileSearch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Brief introduction of Prof......"
+            android:text="Go to professor's webpage"
             android:textColor="#FF00FF00"
             android:textSize="18sp"
             android:textStyle="italic"
             android:typeface="serif" >
         </TextView>
+
+        <Button
+            android:id="@+id/buttonInfo"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="5dp"
+            android:layout_height="30dp"
+            android:background="#57AEF1"
+            android:text="Go"
+            android:textColor="#ffffff" />
+        
     </TableRow>
 
     <!-- Overal Quality -->
@@ -68,7 +78,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="* Overall Quality"
+            android:text="Assignments"
             android:textColor="#FF00FF00"
             android:textSize="18sp"
             android:textStyle="italic"
@@ -76,7 +86,7 @@
         </TextView>
 
         <EditText
-            android:id="@+id/txtOverallQualitySearchEnt"
+            android:id="@+id/txtAssignments"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -97,7 +107,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="* Overall Quality"
+            android:text="Knowledge"
             android:textColor="#FF00FF00"
             android:textSize="18sp"
             android:textStyle="italic"
@@ -105,7 +115,7 @@
         </TextView>
 
         <EditText
-            android:id="@+id/txthelpfulnessSearchEnt"
+            android:id="@+id/txtKnowledge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -126,7 +136,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="* Overall Quality"
+            android:text="Accessible"
             android:textColor="#FF00FF00"
             android:textSize="18sp"
             android:textStyle="italic"
@@ -134,7 +144,7 @@
         </TextView>
 
         <EditText
-            android:id="@+id/txtClaritySearchEnt"
+            android:id="@+id/txtAccessible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
