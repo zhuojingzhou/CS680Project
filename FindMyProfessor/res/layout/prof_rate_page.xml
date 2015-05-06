@@ -185,9 +185,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
-            android:hint="Enter comments here..."
+            android:hint="Please enter at least 10 characters..."
             android:textColor="#FF00FF00"
-            android:textSize="18sp"
+            android:textSize="10sp"
             android:textStyle="italic"
             android:typeface="serif" >
         </EditText>
