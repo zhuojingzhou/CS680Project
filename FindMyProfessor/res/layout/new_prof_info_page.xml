@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#666666"
+    android:orientation="vertical" >
+
+    <!-- Image Header (Bentley Falcon) -->
+
+    <ImageView
+        android:id="@+id/imageHeaderSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo3" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageProfessorSearch"
+                android:layout_width="172dp"
+                android:layout_height="79dp"
+                android:layout_weight="1.61"
+                android:gravity="left"
+                android:src="@drawable/ic_launcher" />
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="wrap_content"
+                android:layout_height="117dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtProfNameSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Prof. Name"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtProfProfileSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="Brief introduction \n of Prof......"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Professor Image (left) and Professor Name&Profile (right) -->
+    <!-- Overall Quality -->
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtOverallQualitySearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="• Overall Quality"
+            android:textColor="#ffffff"
+            android:textSize="18dp" >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtOverallQualitySearchEnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#039be5"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="25sp" >
+
+        </EditText>
+    </LinearLayout>
+
+    <!-- Helpfulness -->
+
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtHelpfulnessSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="• Helpfulness"
+            android:textColor="#ffffff"
+            android:textSize="18dp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txthelpfulnessSearchEnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#039be5"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="25sp" >
+
+        </EditText>
+    </LinearLayout>
+
+    <!-- Clarity -->
+
+    <LinearLayout
+        android:id="@+id/layout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		 android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtClaritySearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="• Clarity"
+            android:textColor="#ffffff"
+            android:textSize="18dp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtClaritySearchEnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#039be5"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="25sp" >
+
+        </EditText>
+    </LinearLayout>
+
+    <!-- Comments -->
+
+    <LinearLayout
+        android:id="@+id/layout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtCommentsSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="COMMENTS"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            >
+        </TextView>
+    </LinearLayout>
+
+    <!-- Comment 1-3 -->
+
+    <LinearLayout
+        android:id="@+id/layout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/txtComment1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:gravity="left"
+            android:text="COMMENT 1..."
+            android:textColor="#ffffff"
+            android:textSize="25sp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtComment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:gravity="left"
+            android:text="COMMENT 2..."
+            android:textColor="#ffffff"
+            android:textSize="25sp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtComment3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:gravity="left"
+            android:text="COMMENT 3..."
+            android:textColor="#ffffff"
+            android:textSize="25sp" >
+        </EditText>
+    </LinearLayout>
+
+</LinearLayout>
